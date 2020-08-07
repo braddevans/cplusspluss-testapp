@@ -6,7 +6,8 @@
 #include "../enums.h"
 
 // functions
-void log(const std::string& input, terminal_color_code color);
-void log(const std::string& input);
+void log(const std::string &input, terminal_color_code color);
+
+void log(const std::string &input);
 
 #endif
