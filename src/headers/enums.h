@@ -1,11 +1,7 @@
-//
-// Created by bread on 07/08/2020.
-//
-
 #ifndef TESTAPP_ENUMS_H
 #define TESTAPP_ENUMS_H
 
-enum color_code : int {
+enum terminal_color_code : int {
     blue = 1,
     green = 2,
     cyan = 3,
@@ -23,4 +19,4 @@ enum color_code : int {
     white = 15
 };
 
-#endif //TESTAPP_ENUMS_H
+#endif
