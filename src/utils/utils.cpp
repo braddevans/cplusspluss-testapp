@@ -8,3 +8,8 @@ void log(const std::string& input, color_code color = color_code::white){
     std::cout << input << std::endl;
     SetConsoleTextAttribute(hConsole, color_code::white);
 }
+
+
+void log(const std::string& input){
+    std::cout << input << std::endl;
+}

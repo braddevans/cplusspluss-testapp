@@ -7,5 +7,6 @@
 
 // functions
 void log(const std::string& input, color_code color);
+void log(const std::string& input);
 
 #endif
