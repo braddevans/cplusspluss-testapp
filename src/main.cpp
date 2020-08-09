@@ -2,7 +2,7 @@
 #include "headers/Global_Headers.h"
 
 int main() {
-    log("Test Output Yellow", terminal_color_code::yellow);
-    log("Test Output Red", terminal_color_code::red);
+    colorLog("Test Output Yellow", terminal_color_code::yellow);
+    colorLog("Test Output Red", terminal_color_code::red);
     return 0;
 }
